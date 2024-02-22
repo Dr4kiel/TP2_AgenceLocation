@@ -1,8 +1,17 @@
 package util;
 
+import java.time.Year;
+
+/**
+ * Classe TimeProvider
+ * Utilitaire pour obtenir l'année actuelle
+ */
 public class TimeProvider {
+    /**
+     * Méthode qui retourne l'année actuelle
+     * @return Integer : l'année actuelle
+     */
     public static int currentYearValue() {
-        // This method should return the current year value
-        return 2024;
+        return Year.now().getValue();
     }
 }
