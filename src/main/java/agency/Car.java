@@ -1,6 +1,6 @@
 package agency;
 
-import util.TimeProvider;
+import utils.TimeProvider;
 
 /**
  * Classe Car

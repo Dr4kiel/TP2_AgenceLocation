@@ -74,10 +74,10 @@ jacocoTestReport {
         html.outputLocation = layout.buildDirectory.dir('JacocoReport')  
     }}  
   
-tasks.register('util', Test) {  
+tasks.register('utils', Test) {  
     // Use JUnit Platform for integration tests.  
     useJUnitPlatform {  
-        includeTags "util"  
+        includeTags "utils"  
     }  
     finalizedBy(jacocoTestReport)  
 }  
