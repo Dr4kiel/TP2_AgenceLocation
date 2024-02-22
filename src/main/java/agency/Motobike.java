@@ -8,7 +8,7 @@ public class Motobike extends AbstractVehicle{
     /**
      * Cylindré du véhicule
      */
-    private int cylinderCapacity;
+    private final int cylinderCapacity;
 
     /**
      * Constructeur de la classe Motobike

@@ -9,17 +9,17 @@ public class Client {
     /**
      * Nom du client
      */
-    private String nom;
+    private final String nom;
 
     /**
      * Prénom du client
      */
-    private String prenom;
+    private final String prenom;
 
     /**
      * Adresse du client
      */
-    private String address;
+    private final String address;
 
     /**
      * Constructeur

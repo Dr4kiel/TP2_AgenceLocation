@@ -11,17 +11,17 @@ public abstract class AbstractVehicle implements Vehicle{
     /**
      * Marque
      */
-    private String brand;
+    private final String brand;
 
     /**
      * Modèle
      */
-    private String model;
+    private final String model;
 
     /**
      * Année de production
      */
-    private int productionYear;
+    private final int productionYear;
 
     /**
      * Constructeur

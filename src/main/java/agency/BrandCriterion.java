@@ -11,7 +11,7 @@ public class BrandCriterion implements Predicate<Vehicle> {
     /**
      * Marque du véhicule
      */
-    private String brand;
+    private final String brand;
 
     /**
      * Constructeur

@@ -11,7 +11,7 @@ public class Car extends AbstractVehicle{
     /**
      * Nombre de sièges
      */
-    private int numberOfSeats;
+    private final int numberOfSeats;
 
     /**
      * Constructeur

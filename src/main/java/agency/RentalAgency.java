@@ -15,18 +15,18 @@ public class RentalAgency {
     /**
      * Liste des véhicules
      */
-    private List<Vehicle> vehicles;
+    private final List<Vehicle> vehicles;
 
     /**
      * Map des véhicules loués
      */
-    private Map<Client, Vehicle> rentedVehicles;
+    private final Map<Client, Vehicle> rentedVehicles;
 
     /**
      * Constructeur
      */
     public RentalAgency() {
-        this(new ArrayList<Vehicle>());
+        this(new ArrayList<>());
     }
 
     /**
@@ -35,7 +35,7 @@ public class RentalAgency {
      */
     public RentalAgency(List<Vehicle> vehicles) {
         this.vehicles = vehicles;
-        rentedVehicles = new java.util.HashMap<Client, Vehicle>();
+        rentedVehicles = new java.util.HashMap<>();
     }
 
     /**
@@ -84,7 +84,7 @@ public class RentalAgency {
      * @return List<Vehicle> : liste des véhicules répondant au critère
      */
     public List<Vehicle> select(Predicate<Vehicle> criterion) {
-        List<Vehicle> selected = new ArrayList<Vehicle>();
+        List<Vehicle> selected = new ArrayList<>();
         for (Vehicle vehicle : vehicles) {
             if (criterion.test(vehicle))
                 selected.add(vehicle);
