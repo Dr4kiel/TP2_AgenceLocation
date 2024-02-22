@@ -1,3 +1,14 @@
+## Consignes
+- Créer un projet avec Gradle
+- Ajout de la javadoc pour chacune de vos méthodes
+- Tester le projet avec JUnit 5
+- Réaliser les assertions avec la librairie ‘AssertJ’
+- Réaliser des tests doubles avec le Framework ‘Mockito’
+- Pouvoir lancer les tests en ligne de commande avec Gradle
+    - Pouvoir exécuter uniquement les tests du package `utils`
+    - Pouvoir exécuter uniquement les tests du package `agency`
+- Générer 2 rapports de couverture de code avec Jacoco : XML + HTML
+
 
 ## Outils
 
